@@ -81,27 +81,63 @@
             //}
 
             //Task5
-            int balance = 1000;
-            Console.WriteLine("Your balance is" + balance);
-            Console.WriteLine("Enter withdrawal amount");
+            //int balance = 1000;
+            //Console.WriteLine("Your balance is" + balance);
+            //Console.WriteLine("Enter withdrawal amount");
 
-            int amount = Convert.ToInt32(Console.ReadLine());
-            if (amount <= 0)
+            //int amount = Convert.ToInt32(Console.ReadLine());
+            //if (amount <= 0)
 
-            {
-                Console.WriteLine("Invalid amount");
-            }
-            else if (amount > balance)
-            {
-                Console.WriteLine("Insufficient Balance");
+            //{
+            //    Console.WriteLine("Invalid amount");
+            //}
+            //else if (amount > balance)
+            //{
+            //    Console.WriteLine("Insufficient Balance");
 
-            }
-            else
-            {
-                balance -= amount;
-                Console.WriteLine("Withdrawal Successful");
-                Console.WriteLine("Remaining Balance: " + balance);
-            }
+            //}
+            //else
+            //{
+            //    balance -= amount;
+            //    Console.WriteLine("Withdrawal Successful");
+            //    Console.WriteLine("Remaining Balance: " + balance);
+            //}
+
+            //Task 1 – Day Name Printer
+            //Console.WriteLine("Enter a number from 1 to 7: ");
+            //int dayNumber = Convert.ToInt32(Console.ReadLine());
+            //switch (dayNumber)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Monday");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Tuesday");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Wednesday");
+            //        break;
+
+            //    case 4:
+            //        Console.WriteLine("Thursday");
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("Friday");
+            //        break;
+            //    case 6:
+            //        Console.WriteLine("Saturday");
+            //        break;
+
+            //    case 7:
+            //        Console.WriteLine("Sunday");
+            //        break;
+            //    default:
+
+            //        Console.WriteLine("Invalid day number");
+            //        break;
+            //}
+
+
 
         }
     }
