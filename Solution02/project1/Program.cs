@@ -148,6 +148,25 @@
             //    Console.WriteLine($"{number} x {i}={number * i}");
             //}
 
+
+            //Task 3 – Countdown Timer
+            //Console.WriteLine("Enter a positive Number: ");
+            //int number=Convert.ToInt32(Console.ReadLine());
+            //if (number <= 0)
+            //{
+            //    Console.WriteLine("Please enter a positive number");
+            //}
+            //else
+            //{
+            //    while (number >= 1)
+            //    {
+            //        Console.WriteLine(number);
+            //        number--;
+            //    }
+            //    Console.WriteLine("Go!");
+            //}
+
+
         }
     }
 }
