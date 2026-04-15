@@ -206,33 +206,63 @@ namespace project1
 
 
             //Task 5 – Sum of Even and Odd Numbers
-            Console.WriteLine("Enter a positive integer: ");
-            int n = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter a positive integer: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
 
-            if (n <= 0)
-            {
-                Console.WriteLine("Please enter a positive integer");
-            }
-            else
-            {
-                int evenSum = 0;
-                int oddSum = 0;
+            //if (n <= 0)
+            //{
+            //    Console.WriteLine("Please enter a positive integer");
+            //}
+            //else
+            //{
+            //    int evenSum = 0;
+            //    int oddSum = 0;
 
-                for (int i = 1; i <= n; i++)
+            //    for (int i = 1; i <= n; i++)
+            //    {
+            //        if (i % 2 == 0)
+            //        {
+            //            evenSum += i;
+            //        }
+            //        else
+            //        {
+            //            oddSum += i;
+            //        }
+            //    }
+            //    Console.WriteLine($"Sum of even number ={evenSum}");
+            //    Console.WriteLine($"Sum of odd number ={oddSum}");
+            //}
+
+            //Task 6 – Password Retry System
+            string correctPassword = "1234";
+            int attempts = 0;
+
+            while (attempts < 3)
+            {
+                Console.Write("Enter password: ");
+                string password = Console.ReadLine();
+
+                if (password == correctPassword)
                 {
-                    if (i % 2 == 0)
+                    Console.WriteLine("Access Granted");
+                    break;
+                }
+                else
+                {
+                    attempts++;
+
+                    if (attempts == 3)
                     {
-                        evenSum += i;
+                        Console.WriteLine("Account Locked");
                     }
                     else
                     {
-                        oddSum += i;
+                        Console.WriteLine($"Wrong password, try again. Attempts remaining: {3 - attempts}");
                     }
                 }
-                Console.WriteLine($"Sum of even number ={evenSum}");
-                Console.WriteLine($"Sum of odd number ={oddSum}");
             }
 
-        }
+
+            }
     }
 }
