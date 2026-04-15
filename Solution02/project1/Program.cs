@@ -103,6 +103,8 @@
             //    Console.WriteLine("Remaining Balance: " + balance);
             //}
 
+
+
             //Task 1 – Day Name Printer
             //Console.WriteLine("Enter a number from 1 to 7: ");
             //int dayNumber = Convert.ToInt32(Console.ReadLine());
@@ -138,6 +140,13 @@
             //}
 
 
+            //Task 2 – Multiplication Table
+            //Console.WriteLine("Enter a Number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine($"{number} x {i}={number * i}");
+            //}
 
         }
     }
