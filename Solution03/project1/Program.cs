@@ -28,28 +28,53 @@
 
 
             //3-take num from user check if it prime or not 
-            Console.WriteLine("Enter a number:");
-            int num = Convert.ToInt32(Console.ReadLine());
+            // Console.WriteLine("Enter a number:");
+            //int num = Convert.ToInt32(Console.ReadLine());
 
-            bool isPrime = true;
+            //bool isPrime = true;
 
-            for (int i = 2; i < num ; i++)
+            //for (int i = 2; i < num ; i++)
+            //{
+            //    if (num % i == 0)
+            //    {
+            //        isPrime = false;
+            //        break; 
+            //    }
+            //}
+
+
+            //if (isPrime )
+            //    Console.WriteLine("Prime Num");
+            //else
+            //    Console.WriteLine("Not Prime Num");
+
+
+            #region while
+            // take random number form user 
+            Random rnd = new Random();
+            int randomNum = rnd.Next(0,10); 
+
+            Console.WriteLine("please Enter any number from (0,10):");
+            int attempt = 0;
+
+            int num =Convert.ToInt32(Console.ReadLine());
+
+            while (num != randomNum && attempt <2)
             {
-                if (num % i == 0)
-                {
-                    isPrime = false;
-                    break; 
-                }
+                Console.WriteLine("Incorrect Number");
+                num = Convert.ToInt32(Console.ReadLine());
+                attempt++;
+            }
+            if (num == randomNum)
+            {
+                Console.WriteLine("Correct  Number");
+            }
+            else
+            {
+                Console.WriteLine("Try again");
             }
 
-            
-            if (isPrime )
-                Console.WriteLine("Prime Num");
-            else
-                Console.WriteLine("Not Prime Num");
-
-
-
+            #endregion
 
 
 
