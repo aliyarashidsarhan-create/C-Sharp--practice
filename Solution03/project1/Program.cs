@@ -51,32 +51,48 @@
 
             #region while
             // take random number form user 
-            Random rnd = new Random();
-            int randomNum = rnd.Next(0,10); 
+            //Random rnd = new Random();
+            //int randomNum = rnd.Next(0,10); 
 
-            Console.WriteLine("please Enter any number from (0,10):");
-            int attempt = 0;
+            //Console.WriteLine("please Enter any number from (0,10):");
+            //int attempt = 0;
 
-            int num =Convert.ToInt32(Console.ReadLine());
+            //int num =Convert.ToInt32(Console.ReadLine());
 
-            while (num != randomNum && attempt <2)
-            {
-                Console.WriteLine("Incorrect Number");
-                num = Convert.ToInt32(Console.ReadLine());
-                attempt++;
-            }
-            if (num == randomNum)
-            {
-                Console.WriteLine("Correct  Number");
-            }
-            else
-            {
-                Console.WriteLine("Try again");
-            }
+            //while (num != randomNum && attempt <2)
+            //{
+            //    Console.WriteLine("Incorrect Number");
+            //    num = Convert.ToInt32(Console.ReadLine());
+            //    attempt++;
+            //}
+            //if (num == randomNum)
+            //{
+            //    Console.WriteLine("Correct  Number");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Try again");
+            //}
 
             #endregion
 
+            #region String
+            //take word from user if it read from poth side correct
+            Console.WriteLine("Enter a word:");
+            string word = Console.ReadLine();
 
+            for (int i = 0; i < word.Length / 2; i++)
+            {
+                if (word[i] != word[word.Length - 1 - i])
+                {
+                    Console.WriteLine("Not Correct");
+                    return;
+                }
+            }
+
+            Console.WriteLine("Correct");
+
+            #endregion
 
 
 
