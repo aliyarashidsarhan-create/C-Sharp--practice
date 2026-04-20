@@ -120,24 +120,37 @@ namespace project01
 
             #region Task7
             //اكتب برنامج يطلب من المستخدم إدخال 10 أرقام ثم يطبع الأرقام الزوجية فقط.
-            int [] numbers = new int[10];
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                Console.WriteLine("Enter Number : ");
-                numbers[i] = Convert.ToInt32(Console.ReadLine());
-            }
-            Console.WriteLine("Even Numbers : ");
-            for  (int i = 0; i < numbers.Length; i++)
-            {
-                if(numbers[i] %2 == 0)
-                {
-                    Console.WriteLine(numbers[i]);
-                }
-            }
+            //int [] numbers = new int[10];
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number : ");
+            //    numbers[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //Console.WriteLine("Even Numbers : ");
+            //for  (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if(numbers[i] %2 == 0)
+            //    {
+            //        Console.WriteLine(numbers[i]);
+            //    }
+            //}
 
             #endregion
 
+            #region Task8
+            //اكتب برنامج يطلب من المستخدم إدخال 5 أرقام ثم يحسب متوسطهم
+            int sum= 0;
+            for(int i=0; i<5;i++)
+            {
+                Console.WriteLine("Enter Number : ");
+                int num = Convert.ToInt32(Console.ReadLine());
+                sum += num;
 
+            }
+            double average = sum / 5;
+            Console.WriteLine("Average =" + average);
+
+            #endregion
 
         }
     }
