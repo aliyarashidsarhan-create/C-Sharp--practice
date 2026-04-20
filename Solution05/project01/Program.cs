@@ -63,7 +63,7 @@ namespace project01
 
             #region Task4
             //اكتب برنامج يطلب من المستخدم إدخال 5 أرقام ثم يحسب مجموعهم.
-           // int sum = 0;
+            // int sum = 0;
             //for (int i = 0; i < 5; i++)
             //{
             //    Console.WriteLine("Enter number: ");
@@ -139,18 +139,43 @@ namespace project01
 
             #region Task8
             //اكتب برنامج يطلب من المستخدم إدخال 5 أرقام ثم يحسب متوسطهم
-            int sum= 0;
-            for(int i=0; i<5;i++)
-            {
-                Console.WriteLine("Enter Number : ");
-                int num = Convert.ToInt32(Console.ReadLine());
-                sum += num;
+            //int sum= 0;
+            //for(int i=0; i<5;i++)
+            //{
+            //    Console.WriteLine("Enter Number : ");
+            //    int num = Convert.ToInt32(Console.ReadLine());
+            //    sum += num;
 
-            }
-            double average = sum / 5;
-            Console.WriteLine("Average =" + average);
+            //}
+            //double average = sum / 5;
+            //Console.WriteLine("Average =" + average);
 
             #endregion
+
+            #region Task9
+            //اكتب برنامج يعمل Array فيها 5 أرقام ثم يعكس ترتيبها.
+
+            int[] numbers = { 1, 2, 7, 8, 9 };
+
+            Console.WriteLine("Array befor reverse : ");
+            for(int i=0; i<numbers.Length; i++)
+            {
+                Console.WriteLine(numbers[i]+ "");
+            }
+            Console.WriteLine("****************");
+            Console.WriteLine("Array After Reverse : ");
+            for (int i = numbers.Length - 1; i >= 0; i--)
+            {
+                Console.WriteLine(numbers[i]+"");
+            }
+
+            #endregion
+
+
+
+
+
+
 
         }
     }
