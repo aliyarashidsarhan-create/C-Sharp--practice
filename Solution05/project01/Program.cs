@@ -75,7 +75,28 @@ namespace project01
 
             #endregion
 
+            #region Task5
+            //اكتب برنامج يطلب من المستخدم إدخال 5 أرقام ثم يطبع أكبر رقم.
+            //int[] numbers = new int[5];
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number : ");
+            //    numbers[i]=Convert.ToInt32(Console.ReadLine());
+            //}
+            //int max = numbers[0];
+            //for (int i = 1; i < numbers.Length; i++)
+            //{
+            //    if(numbers[i] >max)
+            //    {
+            //        max = numbers[i];
+            //    }
+            //}
+            //Console.WriteLine("Max ="+max);
 
+
+
+
+            #endregion
 
 
 
