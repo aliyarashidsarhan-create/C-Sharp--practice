@@ -20,17 +20,28 @@ namespace project01
             //    Console.WriteLine(num);
             //}
 
-            //Task 1 (اكتب برنامج يعمل Array فيها 5 أرقام ويطبعهم باستخدام for.)
+        
+            #region Task1
 
-            int[] numbers = { 1, 2, 3, 4, 5};
-            for (int i = 0; i < numbers.Length; i++) 
-            { 
-             Console.WriteLine(numbers[i]);
-            }
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+
+            #endregion
+
+            #region Task2
+            //int[] number = { 1, 3, 6, 9, 10 };
+            //foreach (int num in number)
+            //{
+            //    Console.WriteLine(num);
+            //}
 
 
 
-
+            #endregion
 
 
 
