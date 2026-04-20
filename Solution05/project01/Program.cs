@@ -61,7 +61,19 @@ namespace project01
 
             #endregion
 
+            #region Task4
+            //اكتب برنامج يطلب من المستخدم إدخال 5 أرقام ثم يحسب مجموعهم.
+            int sum = 0;
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.WriteLine("Enter number: ");
+            //    int num=Convert.ToInt32(Console.ReadLine());
+            //    sum += num; 
 
+            //}
+            //Console.WriteLine("sum ="+sum);
+
+            #endregion
 
 
 
