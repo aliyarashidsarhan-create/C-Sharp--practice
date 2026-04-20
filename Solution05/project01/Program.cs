@@ -155,23 +155,46 @@ namespace project01
             #region Task9
             //اكتب برنامج يعمل Array فيها 5 أرقام ثم يعكس ترتيبها.
 
-            int[] numbers = { 1, 2, 7, 8, 9 };
+            //int[] numbers = { 1, 2, 7, 8, 9 };
 
-            Console.WriteLine("Array befor reverse : ");
-            for(int i=0; i<numbers.Length; i++)
-            {
-                Console.WriteLine(numbers[i]+ "");
-            }
-            Console.WriteLine("****************");
-            Console.WriteLine("Array After Reverse : ");
-            for (int i = numbers.Length - 1; i >= 0; i--)
-            {
-                Console.WriteLine(numbers[i]+"");
-            }
+            //Console.WriteLine("Array befor reverse : ");
+            //for(int i=0; i<numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]+ "");
+            //}
+            //Console.WriteLine("****************");
+            //Console.WriteLine("Array After Reverse : ");
+            //for (int i = numbers.Length - 1; i >= 0; i--)
+            //{
+            //    Console.WriteLine(numbers[i]+"");
+            //}
 
             #endregion
 
+            #region Task10
+            //إذا موجود يطبع مكانه، وإذا غير موجود يطبع Number not found.
+            int[] numbers = { 10, 30, 40, 50, 80 };
 
+            Console.WriteLine("Enter Number to serch : ");
+            int search=Convert.ToInt32(Console.ReadLine());
+
+            bool found=false;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] == search)
+                {
+                    Console.WriteLine("Number found at index " +i);
+                    found= true;
+                    break;
+                }
+            }
+            if(!found)
+            {
+                Console.WriteLine("Number not found ");
+            }
+
+
+            #endregion
 
 
 
