@@ -20,7 +20,7 @@ namespace project01
             //    Console.WriteLine(num);
             //}
 
-        
+
             #region Task1
 
             //int[] numbers = { 1, 2, 3, 4, 5 };
@@ -43,7 +43,23 @@ namespace project01
 
             #endregion
 
+            #region Task3
+            //int[] numbers = new int[5];
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine("Enter number :");
+            //    numbers[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //Console.WriteLine("****");
+            //foreach(int i in numbers) 
+            //{
+            //    Console.WriteLine(i);
+            //}
 
+
+
+
+            #endregion
 
 
 
