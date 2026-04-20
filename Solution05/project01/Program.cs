@@ -98,8 +98,25 @@ namespace project01
 
             #endregion
 
+            #region Task 6
+            //اكتب برنامج يطلب من المستخدم إدخال 5 أرقام ثم يطبع أصغر رقم.
+            //int[] numbers = new int[5];
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine("Enter number : ");
+            //    numbers[i] =Convert.ToInt32(Console.ReadLine());
+            //}
+            //int min = numbers[0];
+            //for (int i = 1; i < numbers.Length; i++)
+            //{
+            //    if(numbers[i] < min)
+            //    {
+            //        min= numbers[i];
+            //    }
+            //}
+            //Console.WriteLine("Min= "+min);
 
-
+            #endregion
 
 
 
