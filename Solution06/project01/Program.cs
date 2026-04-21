@@ -161,7 +161,19 @@
 
             //Find student with highest average
             Console.WriteLine("Find student with highest average:");
+            double highestAverage = average[0];
+            string topStudent = StudentName[0];
 
+            for (int i = 1; i < average.Length; i++)
+            {
+                if (average[i] > highestAverage)
+                {
+                    highestAverage = average[i];
+                    topStudent =StudentName[i];
+                }
+            }
+
+            Console.WriteLine($"{topStudent} has the highest average = {highestAverage}");
 
             #endregion
 
