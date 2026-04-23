@@ -152,9 +152,9 @@
             label4.AutoSize = true;
             label4.Location = new Point(7, 273);
             label4.Name = "label4";
-            label4.Size = new Size(42, 15);
+            label4.Size = new Size(31, 15);
             label4.TabIndex = 12;
-            label4.Text = "Search";
+            label4.Text = "Dep:";
             // 
             // Form1
             // 
