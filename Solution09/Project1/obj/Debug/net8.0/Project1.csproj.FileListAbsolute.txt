@@ -1,0 +1,15 @@
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\bin\Debug\net8.0\Project1.exe
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\bin\Debug\net8.0\Project1.deps.json
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\bin\Debug\net8.0\Project1.runtimeconfig.json
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\bin\Debug\net8.0\Project1.dll
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\bin\Debug\net8.0\Project1.pdb
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\Project1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\Project1.AssemblyInfoInputs.cache
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\Project1.AssemblyInfo.cs
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\Project1.csproj.CoreCompileInputs.cache
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\Project1.sourcelink.json
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\Project1.dll
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\refint\Project1.dll
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\Project1.pdb
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\Project1.genruntimeconfig.cache
+C:\Users\aliya\OneDrive\Desktop\solution-\Solution09\Project1\obj\Debug\net8.0\ref\Project1.dll
