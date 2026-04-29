@@ -10,6 +10,7 @@
             #region Function
             static void Calculator()
             {
+            //calculator 
                 bool continueCalc = true;
                 while(continueCalc) {
                     Console.WriteLine("Enter First Number :");
