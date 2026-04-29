@@ -121,7 +121,7 @@ namespace project01
 
             int choice = 0;
 
-            while (choice != 9)
+            while (choice != 10)
             {
                 Console.WriteLine("\n--- Student Service Center ---");
                 Console.WriteLine("1. Add Student");
