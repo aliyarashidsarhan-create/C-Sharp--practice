@@ -132,7 +132,8 @@ namespace project01
                 Console.WriteLine("6. Serve Next Student");
                 Console.WriteLine("7. Undo Last Service");
                 Console.WriteLine("8. Show Queue");
-                Console.WriteLine("9. Exit");
+                Console.WriteLine("9. Search by Id");
+                Console.WriteLine("10. Exit");
 
                 try
                 {
@@ -233,6 +234,20 @@ namespace project01
                             break;
 
                         case 9:
+                            Console.Write("Enter Student ID to search: ");
+                            id = int.Parse(Console.ReadLine());
+
+                            if (students.ContainsKey(id))
+                            {
+                                Console.WriteLine("Student Found: " + id + " -> " + students[id]);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Student not found.");
+                            }
+                            break;
+
+                        case 10:
                             Console.WriteLine("Exit program.");
                             break;
 
